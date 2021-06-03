@@ -79,9 +79,6 @@ h4{
     color: #fff;
     font-size: 20px;
 }
-i{
-
-}
 a:hover {
     text-decoration: none;
 }
@@ -93,4 +90,3 @@ a:hover {
 	.navbar .dropdown-menu.fade-up{ top:180%;  }
 	.navbar .nav-item:hover .dropdown-menu{ transition: .3s; opacity:1; visibility:visible; top:100%; transform: rotateX(0deg); }
 }
-
