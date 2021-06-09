@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
-
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
-    height: 2000px;
     font-family: 'Inter', sans-serif !important;
-    background-color: #F5F4F8;
+    background-color: #000022;
     transition:.25s ease-in-out !important;
     font-size: .875rem;
     color: #5c5776;
@@ -12,18 +14,25 @@ h4{
     font-size: 1rem;
     color: #18113c;
 }
+.titlee{
+    color: white;
+    margin: 100px 0px 100px !important;
+    text-align: center;
+}
 .navbar{
-    background-color: #F5F4F8;
+    background-color: #000022 !important;
 }
 .navbar-nav{
     font-size: 14px;
     font-weight: 400 !important;
+    
 }
 .dropdown-item{
     font-size: 14px;
 }
 .navbar-light .navbar-nav .nav-link{
-    color: #18113c;
+    color: white;
+    
 }
 .navbar .dropdown-menu{
     box-shadow: 0 10px 30px 0 rgb(31 45 61 / 10%);
@@ -32,8 +41,15 @@ h4{
     background-color: #fff;
 }
 .bg-primary{
-    background-color: #2589BD !important;
+    background-color: #000022 !important;
     justify-content: center !important;
+}
+.bg-second{
+    background-color: #000022 !important;
+}
+.ola{
+    position: absolute;
+    width: 100%;
 }
 .font-weight-bold{
     font-weight: 700 !important;
@@ -52,9 +68,11 @@ h4{
 }
 .btn-success:hover{
     background-color: #17bd8e;
+    border-color: #17bd8e;
 }
 .btn-white:hover{
     background-color: #E5E5E5;
+    position: relative;
 }
 .btn{
     display: inline-block;
@@ -559,7 +577,7 @@ a {
 @media all and (min-width: 992px) {
 	.navbar .dropdown-menu-end{ right:0; left: auto;  }
 	.navbar .nav-item .dropdown-menu{  display:block; opacity: 0;  visibility: hidden; transition:.3s; margin-top:0;  }
-	.navbar .nav-item:hover .nav-link{ color: #754FFE;  }
+	.navbar .nav-item:hover .nav-link{ color: white;  }
 	.navbar .dropdown-menu.fade-down{ top:80%; transform: rotateX(-75deg); transform-origin: 0% 0%; }
 	.navbar .dropdown-menu.fade-up{ top:180%;  }
 	.navbar .nav-item:hover .dropdown-menu{ transition: .3s; opacity:1; visibility:visible; top:100%; transform: rotateX(0deg); }
