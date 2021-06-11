@@ -30,10 +30,11 @@ h4{
 .dropdown-item{
     font-size: 14px;
 }
-.navbar-light .navbar-nav .nav-link{
+.navbar-dark .navbar-nav .nav-link{
     color: white;
     
 }
+
 .navbar .dropdown-menu{
     box-shadow: 0 10px 30px 0 rgb(31 45 61 / 10%);
     border-radius:.5rem;
@@ -572,7 +573,10 @@ a {
     transform: translate(5px, -50%);
     opacity: 1;
 }
-
+.ohh{
+    height: 2000px;
+    width: 2000px;
+}
 /* =========================================== */
 @media all and (min-width: 992px) {
 	.navbar .dropdown-menu-end{ right:0; left: auto;  }
