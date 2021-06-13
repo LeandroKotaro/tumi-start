@@ -5,7 +5,7 @@
 }
 body{
     font-family: 'Inter', sans-serif !important;
-    background-color: #F5F4F8;
+    background-color: #36382E;
     transition:.25s ease-in-out !important;
     font-size: .875rem;
     color: #5c5776;
@@ -15,7 +15,7 @@ h4{
     color: #18113c;
 }
 .titlee{
-    color: #36382E;
+    color: white;
     margin: 100px 0px 100px !important;
     text-align: center;
 }
